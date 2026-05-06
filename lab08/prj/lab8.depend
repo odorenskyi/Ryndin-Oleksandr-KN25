@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1777125709 source:d:\lab 8\prj\main.cpp
+	<iostream>
+	<iomanip>
+	<windows.h>
+	"ModulesRyndin.h"
+
+1777126358 d:\lab 8\prj\modulesryndin.h
+
+1777125646 source:d:\lab 8\prj\modulesryndin.cpp
+	"ModulesRyndin.h"
+	<cmath>
+
