@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1779314330 source:d:\lab09\lab09\software\libmodulesryndin\modules_ryndin.cpp
+	"ModulesRyndin.h"
+	<cstddef>
+	<cmath>
+
+1779325869 d:\lab09\lab09\software\libmodulesryndin\modulesryndin.h
+
+1779325700 source:d:\lab09\lab09\software\ryndintask\ryndin_task.cpp
+	<cstdio>
+	<cstdlib>
+	<cctype>
+	<windows.h>
+	"ModulesRyndin.h"
+
