@@ -1,0 +1,28 @@
+Тест-сьют лабораторної роботи №10. Варіант 3.
+
+--- Тест-кейс 10.1 ---
+Preliminary Steps: вхідний файл input.txt містить 5 абзаців тексту українською мовою,
+  серед яких є слова "Україна", "університет", "блокнот".
+Action: task10_1("input.txt", "output.txt")
+Expected Result: у output.txt записано авторську інформацію,
+  кількість абзаців: 5,
+  'Україна' — є, 'університет' — є, 'блокнот' — є.
+Test Result: PASSED
+
+--- Тест-кейс 10.2 ---
+Preliminary Steps: файл input.txt із тест-кейсу 10.1.
+Action: task10_2("input.txt")
+Expected Result: у кінець input.txt дописано:
+  "Кількість знаків пунктуації: N" (N — реальна кількість),
+  "Дата та час дозапису: дд.мм.рррр гг:хх:сс".
+Test Result: PASSED
+
+--- Тест-кейс 10.3 ---
+Preliminary Steps: x=1.0, y=0.0, z=0.0, b=13.
+Action: task10_3("output.txt", 1.0, 0.0, 0.0, 13)
+Expected Result: у output.txt дописано:
+  "s_calculation(1, 0, 0) = 1"
+  "Число 13 у двійковому коді: 1101"
+Test Result: PASSED
+
+Всі тести пройдено успішно.
